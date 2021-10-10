@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(231, 228, 228);
+}
+
+/* Heading Section and Right Menu */
+#odin-image{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.no-style{
+    text-decoration: none;
+    color: rgb(145, 141, 141);
+    margin-right: 15px;
+}
+
+/*  Mid-section and shadow box style Welcome */
+
+
+/* Recipe Image Section and Links */
+.recipes-image{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color: lightgreen;
+    width: 100%;
+}
+.div-flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 25%;
+    padding: 0 4px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    object-fit: contain;
+}
+.Caption
+{
+display: inline-block;
+text-align: justify;
+}
+
+.head-menu{
+    margin-left: auto;
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
